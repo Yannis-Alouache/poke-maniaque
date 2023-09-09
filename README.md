@@ -53,7 +53,6 @@ Access the website on :
 ![Screenshot 2023-09-09 131754](https://github.com/Yannis-Alouache/poke-maniaque/assets/57330326/7ea22359-e75c-4262-9ba2-3d73f7df52b4)
 ---
 ![Screenshot 2023-09-09 132113](https://github.com/Yannis-Alouache/poke-maniaque/assets/57330326/e5c3a588-123a-4af2-b909-5c33996a4050)
-##
 ---
 ![Screenshot 2023-09-09 133329](https://github.com/Yannis-Alouache/poke-maniaque/assets/57330326/2feb1c58-4ff7-4320-8a8a-d3703d0637a6)
 
