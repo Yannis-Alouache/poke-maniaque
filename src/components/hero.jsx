@@ -4,10 +4,11 @@ import bg from "../assets/hero.webp"
 function Hero() {
   return (
     <div className="container mx-auto text-center">
-        <div 
+        <div
           style={
             {
-              "background": "linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(" + `${bg}` + ")",
+              // eslint-disable-next-line
+              "background": 'linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(' + `${bg}` + ')',
               "backgroundPosition": "center",
               "backgroundSize": "cover",
               "height": "460px"
