@@ -1,7 +1,7 @@
 
 # PokeManiaque 
 
-PokemManiaque is a website allowing to look at every series and sets of the pokemon franchise. 
+PokeManiaque is a website allowing to look at every series and sets of the pokemon franchise. 
 
 The website can be accessed there : https://poke-maniaque.netlify.app
 
