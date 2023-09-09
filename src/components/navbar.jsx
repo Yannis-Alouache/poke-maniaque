@@ -44,7 +44,7 @@ function Navbar() {
                     <div className="relative ml-3">
                         <div className="relative mx-auto text-gray-600">
                             <input className="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg text-sm focus:outline-none"
-                            type="search" name="search" placeholder="Search" />
+                            type="search" name="search" placeholder="Recherche un Pokémon !" />
                             <button type="submit" className="absolute right-0 top-0 mt-2 mr-3">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
@@ -60,7 +60,7 @@ function Navbar() {
             <div className={mobileMenuOpen ? "block" : "hidden"} id="mobile-menu">
                 <div className="space-y-1 px-2 pb-3 pt-2">
                     <div className="relative mx-auto text-gray-600">
-                        <input className="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg w-full text-sm focus:outline-none" type="search" name="search" placeholder="Search"/>
+                        <input className="border-2 border-gray-300 bg-white h-10 px-5 pr-16 rounded-lg w-full text-sm focus:outline-none" type="search" name="search" placeholder="Recherche un Pokémon !"/>
                         <button type="submit" className="absolute right-0 top-0 mt-2 mr-3">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" className="w-6 h-6">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"></path>
