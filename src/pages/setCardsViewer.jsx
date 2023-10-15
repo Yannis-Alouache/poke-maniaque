@@ -12,6 +12,7 @@ import SeriesInfoBanner from '../components/seriesInfoBanner';
 
 import notFound from "../assets/notFound.jpg"
 import NotFound from './notFound';
+import Footer from '../components/footer';
 
 
 function SetCardsViewer() {
@@ -26,6 +27,8 @@ function SetCardsViewer() {
   const formattedSetName = () => {
     return setName.replace(/-/g, " ")
   }
+
+  document.title = 'PokeManiaque | ' + formattedSetName();
 
   const openModal = (image, currentCardId) => {
     if (missingCardIds.includes(currentCardId)) {
@@ -63,7 +66,7 @@ function SetCardsViewer() {
       <Navbar />
       <Hero />
 
-      <div className="pt-16 container mx-auto px-5 lg:px-16 xl:px-20">
+      <div className="pt-16 container mx-auto px-5 lg:px-16 xl:px-20 mb-16">
 
           {cardSet && releaseDateSet &&
             <>
@@ -138,6 +141,7 @@ function SetCardsViewer() {
             </>
           }
       </div>
+      <Footer />
     </>
   )
 }

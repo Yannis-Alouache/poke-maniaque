@@ -7,8 +7,11 @@ import SeriesWrapper from "../components/seriesWrapper";
 import Footer from '../components/footer';
 
 function Home() {
+
     const [listOfSeries, setListofSeries] = useState([]);
-    
+    document.title = 'PokeManiaque | Accueil';
+
+
     useEffect(() => {
         const loadSeries = () => {
             axios.get('https://api.tcgdex.net/v2/fr/series')
